@@ -1,0 +1,1064 @@
+* {
+    outline: none;
+}
+
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+    background-color: #000;
+}
+
+h1 {
+	font-size:18px;
+    margin:5px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+h2 {
+	font-size:16px;
+    clear: both;
+}
+
+h3 {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	font-size:15px;
+}
+
+h4 {
+	font-size:14px;
+}
+
+h5 {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+p {
+	font-size:12px;
+	padding:0px 0px 5px 0px;
+}
+
+hr {
+	display:block;
+	width:50%;
+	margin:30px auto 10px auto;
+	clear:both;
+}
+
+br {
+    clear: both;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+a:visted {
+	color:#FFF;
+}
+
+a:hover {
+	color:#FFF;
+}
+
+img {
+	border:none;
+}
+
+ol {
+	list-style:none;
+}
+
+li {
+	line-height:24px;
+	margin:0px 0px 5px -40px;
+	padding:0px 0px 0px 0px;
+    clear: both;
+    color: #FFF;
+}
+
+fieldset {
+	border-color:#333;
+}
+
+legend {
+	font-weight:bold;
+    color: #FFF;
+}
+
+label {
+	display:block;
+	float:left;
+    clear:left;
+	width:150px;
+    line-height: 21px;
+    margin: 5px 0px 5px 0px;
+}
+
+#pageTitle {
+	width:250px;
+}
+
+#pageContent {
+    height: 150px;
+}
+
+#preview {
+    width: 100px;
+    height: 100px;
+    background: #444;
+    border: 1px #666 groove;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+}
+
+#preview img {
+    width: 100px;
+}
+
+#searchBtn {
+    margin: 0px 0px 0px 25px;
+}
+
+input {
+    margin: 5px 0px 5px 0px;
+}
+
+input[type="text"] {
+	width:220px;
+    float:left;
+    clear:right;
+}
+
+input[type="password"] {
+	width:145px;
+}
+
+input[type="submit"] {
+    float:left;
+    clear:right;
+}
+
+input[type="checkbox"] {
+    float:left;
+    clear:right;
+}
+
+select {
+	min-width:100px;
+    float:left;
+    clear:right;
+    margin: 5px 0px 5px 0px;
+}
+
+textarea {
+	height:50px;
+	width:575px;
+    float: left;
+    clear:right;
+    margin: 5px 0px 5px 0px;
+}
+
+.main_holder {
+	height:100%;
+	margin:0px 0px 0px 0px;
+}
+
+.mainImgHolder {
+	width:100%;
+	height:75px;
+	margin:0px 0px 0px 0px;
+	background-color:#000;
+	display:block;
+	clear:both;
+}
+
+.mainImg {
+	width:70%;
+	height:75px;
+	margin:10px auto 0px auto;
+}
+
+.mainImg img {
+	margin: 8px 0px 0px 0px;
+}
+
+input.stdText {
+    width:300px;
+}
+
+.stdChkBox {
+    margin: 0px 135px 0px 0px;
+}
+
+.title {
+	width:980px;
+	height:25px;
+	min-height:30px;
+	margin:10px auto 10px auto;
+	padding:5px 10px 5px 10px;
+	-moz-border-radius:5px;
+	background-color:#EBB817;
+	display:block;
+	clear:both;
+}
+
+.title h3 {
+    color: #000;
+}
+
+.menu {
+	width:980px;
+	height:60px;
+	min-height:30px;
+	margin:10px auto 10px auto;
+	padding:5px 10px 5px 10px;
+	-moz-border-radius:5px;
+	background-color:#999;
+	display:block;
+	clear:both;
+}
+
+.adminMenu {
+	width:70%;
+	height:auto;
+	margin:0px auto 10px auto;
+	padding:5px 10px 5px 10px;
+	-moz-border-radius:5px;
+	background-color:#999;
+	display:block;
+	clear:both;
+}
+
+#bannerContainer {
+    display: block;
+    float: left;
+    height: 100%;
+    width:100%;
+    margin: 20px 2px 0px 0px;
+}
+
+#cvMenu {
+    width:100%;
+    height:70px;
+    padding: 5px 0px 0px 0px;
+    margin:5px auto 10px auto;
+    background-color: gray;
+    -moz-border-radius:5px;
+    display: block;
+    float: left;
+}
+
+#cvMenu form {
+    margin: 15px 0px 0px 20px;
+}
+
+#cvMenu p {
+    margin: 10px 0px 0px 20px;
+}
+
+#CVView {
+    width: 700px;
+    height: 100%;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+#CVaddress {
+    display: block;
+    clear: both;
+}
+
+#CVPhone {
+    display: block;
+    clear: both;
+}
+
+#CVemail {
+    margin: 10px 0px 0px 0px;
+    display: block;
+    clear: both;
+}
+
+#CVContents {
+    display: block;
+    clear: both;
+}
+
+.commentList {
+    height: 100%;
+    width:100%;
+    float: left;
+    clear: both;
+}
+
+#jobMenu {
+    width:100%;
+    height:60px;
+    padding: 5px 0px 0px 0px;
+    margin:5px auto 10px auto;
+    background-color: gray;
+    -moz-border-radius:5px;
+    display: block;
+    float: left;
+}
+
+#jobMenu p {
+    text-align: center;
+    color: #FFF;
+}
+
+#jobMenu a {
+    width:75px;
+    text-align: center;
+    float: left;
+}
+
+#jobMenu span {
+    width:75px;
+    text-align: center;
+    float: left;
+}
+
+#editPropertyForm select {
+    width:120px;
+}
+
+#editPropertyForm {
+    width:100%;
+    margin: 1px auto 1px auto;
+    background-color:#1A353B;
+    height:100%;
+	-moz-border-radius:5px;
+}
+
+#editPropertyForm img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+#editPropForm {
+    display: block;
+    float: left;
+}
+
+#editImgForm {
+    display: block;
+    float: left;
+}
+
+#editImgForm label {
+    color: #FFF;
+}
+
+.bannerList {
+    display: block;
+    float: left;
+    height: 65px;
+    width:145px;
+    margin: 20px 2px 0px 0px;
+}
+
+.bannerList img {
+    display: block;
+    margin: 5px 10px 5px 10px;
+}
+
+
+#imgList {
+    display: block;
+    float: right;
+    height: 100%;
+    width:367px;
+    margin: 20px 2px 0px 0px;
+}
+
+#imgList img {
+    display: block;
+    margin: 5px 10px 5px 10px;
+}
+
+#editPropForm label {
+    color: #FFF;
+}
+
+#editPropForm textarea {
+    height:350px;
+}
+
+#editPropForm input {
+    width:300px;
+}
+
+/*#availList {
+    display: block;
+    position: relative;
+    top:192px;
+    left:136px;
+}*/
+
+/*#cateList {
+    display: block;
+    position: relative;
+    top:200px;
+    left:136px;
+}*/
+
+#editPropForm input[type="submit"] {
+    width:75px;
+}
+
+#editPropForm input[type="button"] {
+    width:75px;
+    margin: 0px 0px 0px 5px;
+}
+
+.linkHolder {
+	width:60px;
+	height:60px;
+	float:left;
+	display:table-row;
+	margin:0px 10px 0px 0px;
+	text-align:center;
+    padding:0px 10px 0px 0px;
+    border-right: 2px dotted #666;
+}
+
+.linkHolder img {
+    display: block;
+    clear: both;
+    margin: 0px auto 0px auto;
+}
+
+.header {
+	width:980px;
+	margin:10px auto 10px auto;
+	padding:0px 10px 5px 10px;
+	background-color:#EBB817;
+	-moz-border-radius:5px;
+	display:block;
+	clear:both;
+	height:100%;
+	min-height:70px;
+}
+
+.header p {
+    line-height:15px;
+    padding:10px 0px 0px 0px;
+}
+
+.makePrimary {
+    display: block;
+    width: 150px;
+    height:100px;
+}
+
+.mainContent {
+	width:100%;
+	height:100%;
+	padding:10px 0px 10px 0px;
+	background-color:#333;
+	display:block;
+	clear:both;
+}
+
+.welcome {
+	padding:5px 0px 0px 0px;
+	float:left;
+	display:block;
+}
+
+.welcome h3 {
+    color: #FFF;
+}
+
+.warning {
+    color: #990000;
+    font-weight: bold;
+}
+
+.break {
+	float:left;
+	display:block;
+	clear:both;
+}
+
+.myAccount {
+	display:block;
+	margin:5px 10px 0px 0px;
+	float:right;
+	clear:right;
+}
+
+.myAccount img {
+    clear: both;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.myAccount  span {
+    display: block;
+    clear: both;
+}
+
+.mceEditor {
+    float: left;
+    clear: right;
+}
+
+.extAccount {
+	display:block;
+    /*width:300px;*/
+	margin:0px 0px 0px 0px;
+	float:right;
+	clear:none;
+}
+
+.extAccount a {
+    display: block;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.extAccount span {
+    display: block;
+    text-align: center;
+}
+
+.extAccount img {
+    clear: both;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.appList {
+    border: 2px dotted #666;
+    width: 700px;
+    height: 100%;
+    clear: both;
+    display: block;
+}
+
+.allAccount {
+	display:block;
+	margin:5px 0px 0px 0px;
+	float:right;
+	clear:right;
+}
+
+.home {
+	margin:0px 0px 0px 0px;
+	float:left;
+	clear:right;
+	display:block;
+}
+
+.logout {
+	margin:0px 0px 0px 0px;
+	float:left;
+	clear:right;
+	display:block;
+	
+}
+
+.logout a {
+	display:block;
+	width:32px;
+	height:32px;
+	background-image:url(../icons/logout.png);
+	background-repeat:no-repeat;
+}
+
+.logout a:hover {
+	float:left;
+	clear:left;
+	display:block;
+	width:32px;
+	height:32px;
+	background-image:url(../icons/logout_1.png);
+	background-repeat:no-repeat;
+}
+
+.adminMenuList {
+	display:block;
+	float:left;
+	width:100%;
+	clear:both;
+	margin:10px 0px 5px 0px;
+}
+
+.adminMenuList a {
+	display:block;
+	float:left;
+	width:120px;
+}
+
+.content1_admin {
+	background-color:#999999;
+	width:980px;
+    min-height: 300px;
+	margin:0px auto 20px auto;
+	padding:5px 10px 30px 10px;
+	-moz-border-radius:7px;
+	color:#000;
+	display:block;
+    position: relative;
+}
+
+.content1 {
+	display:block;
+	width:100%;
+	height:100%;
+	clear:both;
+	margin:10px 0px 20px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+.commentImg {
+    width:180px;
+    display: block;
+    margin: 0px 20px 0px 0px;
+    float: left;
+}
+
+.commentImg img {
+    width:200px;
+}
+
+.commentImg input {
+    margin: 20px 0px 0px 0px;
+    float:right;
+}
+
+.commentText {
+    width: 450px;
+    height: 220px;
+    display: block;
+    float: left;
+    clear: right;
+    margin: 0px 0px 0px 40px;
+}
+
+.contactHolder {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    z-index: -1;
+}
+
+.contactHolder img {
+    margin: 0px auto 0px auto;
+}
+
+.cvListings {
+    width:300px;
+    margin: 5px 10px 10px 0px;
+    height:auto;
+    float: left;
+    border: 2px dotted #666;
+}
+
+.cvExtract {
+    clear:both;
+    display: block;
+    font-size:12px;
+    font-style:italic;
+    margin:2px 0 0 5px;
+    width:300px;
+    height: 70px;
+}
+
+.cvExtract span {
+    font-size: 12px;
+    font-style: normal;
+    color: #000;
+}
+
+.pageContainer {
+	width:100%;
+	height:auto;
+	display:block;
+	clear:both;
+}
+
+.holder {
+	height:50px;
+	width:80px;
+	float:left;
+	margin:5px 10px 5px 0px;
+	display:block;
+	text-align:center;
+}
+
+.holder a {
+	display:block;
+   	height:30px;
+	width:50px;
+	margin:5px auto 5px auto;
+}
+
+.pageHolder {
+	height:50px;
+	width:80px;
+	float:left;
+	margin:5px 10px 5px 0px;
+	display:block;
+	text-align:center;
+}
+
+.pageHolder a {
+	display:block;
+   	height:30px;
+	width:50px;
+	margin:5px auto 5px auto;
+}
+
+.bannerListSelected {
+    display: block;
+    float: left;
+    height: 100%;
+    width:120px;
+    margin: 20px 2px 0px 0px;
+    border: 2px solid black;
+}
+
+.bannerListSelected img {
+    display: block;
+    margin: 5px 10px 5px 10px;
+}
+
+#houseCount {
+    display: none;
+}
+
+#mainPropertyHolder {
+    width: 100%;
+    height: 100%;
+}
+
+.deleteContact {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    background-image: url(../icons/deletemini.png);
+    position: relative;
+    z-index: 99;
+}
+
+.deleteContact a {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+.dragDrop {
+    position: relative;
+    width:32px;
+    height:32px;
+    margin: -5px 0px -30px 0px;
+    background-image: url(../icons/move.png);
+    display:block;
+    z-index: 99;
+}
+
+#mainPropertyHolder li {
+    list-style: none;
+    width:160px;
+    height: 175px;
+    display: block;
+    margin: 0px 5px 5px 0px;
+    clear: none;
+    float: left;
+}
+
+.propertyHolder {
+    width:160px;
+    height:155px;
+    float: left;
+    display: block;
+    margin:5px 2px 0px 0px;
+    z-index: -1;
+}
+
+.propertyHolder img {
+    z-index: 0;
+}
+
+.removeImgHolder {
+    float:left;
+    display: block;
+    height: 145px;
+    z-index: -1;
+}
+
+.removeImgHolder img {
+    z-index: 0;
+}
+
+.removeImg {
+    position: absolute;
+    width:30px;
+    height:32px;
+    margin: -2px 0px 0px 135px;
+    background-image: url(../icons/small_delete.png);
+    display:block;
+    z-index: 99;
+}
+
+.removeImg a {
+    display: block;
+    width:30px;
+    height:30px;
+}
+
+.removeBanner {
+    position: absolute;
+    width:30px;
+    height:32px;
+    margin: -2px 0px 0px 100px;
+    background-image: url(../icons/small_delete.png);
+    display:block;
+    z-index: 99;
+}
+
+.removeBanner a {
+    display: block;
+    width:30px;
+    height:30px;
+}
+
+.removeProperty {
+    position: relative;
+    width:32px;
+    height:32px;
+    margin: -5px 0px -30px 125px;
+    background-image: url(../icons/small_delete.png);
+    display:block;
+    z-index: 99;
+}
+
+.removeProperty a {
+    display: block;
+    width:30px;
+    height:30px;
+}
+
+.propAddr {
+    width: 160px;
+    float:right;
+    text-align: left;
+    margin:5px 0px 0px 100px;
+    display: block;
+    color: #FFF;
+}
+
+.propAddr span {
+    width: 150px;
+    display: block;
+    line-height:15px;
+    margin:-10px 0px -15px 0px;
+}
+
+
+.regPara {
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.regParam {
+    width:200px;
+    float: left;
+}
+.regVal {
+    width: 310px;
+    float: left;
+}
+
+.jobListing {
+    width:300px;
+    margin: 5px 10px 10px 0px;
+    height:auto;
+    float: left;
+    border: 2px dotted #666;
+}
+
+.viewPers {
+    position: relative;
+    top:-170px;
+    left:275px;
+    width:20px;
+    height:20px;
+    background: url(../icons/miniusers.png) no-repeat;
+    z-index: 100;
+}
+.viewPers a {
+    display: block;
+    width:20px;
+    height:20px;
+}
+
+.viewCV {
+    position: relative;
+    top:-165px;
+    left:275px;
+    width:20px;
+    height:20px;
+    background: url(../icons/miniattachment.png) no-repeat;
+    z-index: 100;
+}
+.viewCV a {
+    display: block;
+    width:20px;
+    height:20px;
+}
+
+.viewApps {
+    position: relative;
+    top:190px;
+    left:275px;
+    width:20px;
+    height:20px;
+    background: url(../icons/miniusers.png) no-repeat;
+    z-index: 100;
+}
+.viewApps a {
+    display: block;
+    width:20px;
+    height:20px;
+}
+
+.removeJob {
+    position: absolute;
+    width:20px;
+    height:20px;
+    margin: 0px 0px 0px 280px;
+    background: url(../icons/deletemini.png) no-repeat;
+    display:block;
+    z-index: 99;
+}
+.removeJob a {
+    display: block;
+    width:20px;
+    height:20px;
+}
+
+.jobTitle {
+    margin: -10px 0px 0px 0px;
+}
+
+.jobTitle a {
+    color: #FFF;
+    clear:both;
+}
+
+.jobTitle h4 {
+    margin: 5px 0px 0px 5px;
+}
+
+.location {
+    font-size: 12px;
+    font-style: italic;
+    margin: 2px 0px 0px 5px;
+    width:300px;
+    clear: both;
+}
+
+.location span {
+    font-size: 12px;
+    font-style: normal;
+    color: #000;
+}
+
+.email {
+    font-size: 12px;
+    font-style: italic;
+    margin: 2px 0px 0px 5px;
+    width:300px;
+    clear: both;
+}
+
+.email span {
+    font-size: 12px;
+    font-style: normal;
+    color: #000;
+}
+
+.number {
+    font-size: 12px;
+    font-style: italic;
+    margin: 2px 0px 0px 5px;
+    width:300px;
+    clear: both;
+}
+
+.number span {
+    font-size: 12px;
+    font-style: normal;
+    color: #000;
+}
+
+.consultant {
+    font-size: 12px;
+    font-style: italic;
+    margin: 2px 0px 0px 5px;
+    width:300px;
+    clear: both;
+}
+
+.jobDesc {
+    margin: 5px 0px 0px 5px;
+    width:300px;
+    float: left;
+    height: 70px;
+}
+
+.jobDesc p {
+    margin: 5px 0px 0px 5px;
+}
+
+.salary {
+    width: 300px;
+    float: left;
+    text-align: left;
+    margin: 5px 0px 5px 5px;
+    clear: both;
+}
+
+.status {
+    width: 300px;
+    float: left;
+    text-align: left;
+    margin: 5px 0px 5px 5px;
+    clear: both;
+}
+
+.postedDate {
+    width: 300px;
+    float: left;
+    text-align: left;
+    margin: 0px 0px 0px 5px;
+    clear: both;
+}
+
+.footer {
+	width:100%;
+	height:80px;
+	display:block;
+	clear:both;
+	background-color:#000;
+	margin:0px 0px 0px 0px;
+	text-align:center;
+    color: #FFF;
+}
