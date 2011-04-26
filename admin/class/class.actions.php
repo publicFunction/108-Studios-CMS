@@ -4,10 +4,6 @@ class actions {
 
     public static function pageExists($page) {
         $check = DB::dbQuery("SELECT id FROM pageinfo WHERE pageName='".$page."'", "1");
-<<<<<<< HEAD
-		
-=======
->>>>>>> 883efc8801da1339fa0b4522317820f834626e36
         if ($check != "") {
             return false;
         } else {
