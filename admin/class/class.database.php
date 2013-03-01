@@ -113,7 +113,7 @@ class DB {
     }
 
 
-    public static function dbDelete($table, $unique ,$ref) {
+    public static function dbDelete($table, $unique, $ref) {
         $query = "DELETE FROM ".$table." WHERE ".$unique." = '".$ref."';";
         $request = mysql_query($query);
         if ($request) {
